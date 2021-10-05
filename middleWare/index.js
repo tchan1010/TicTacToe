@@ -1,6 +1,6 @@
 // src/js/middleware/index.js
 
-import AsyncStorage from '@react-native-community/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { FETCH_SCORES, SAVE_SCORES, OLD_SCORES } from "../constants/action-types";
 import { recordScores } from "../actions/index";
 

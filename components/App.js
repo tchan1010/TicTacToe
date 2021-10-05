@@ -8,7 +8,6 @@ import {AppRegistry, Text, View} from 'react-native';
 import Style from './Style.js';
 import InputButton from './InputButton';
 import Board from './Board.js';
-//import AsyncStorage from '@react-native-community/async-storage';
 import { connect } from "react-redux";
 import { setSymbol, setHightlight, clearAll, fetchScores, saveScores } from '../actions/index';
 

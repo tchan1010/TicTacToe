@@ -1,20 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "ticTacToe",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
-  "dependencies": {
-    "@react-native-community/async-storage": "^1.2.1",
-    "react": "16.8.3",
-    "react-dom": "^16.8.6",
-    "react-native": "^0.59.2",
-    "react-redux": "^6.0.1",
-    "redux": "^4.0.1",
-=======
   "name": "TicTacToe",
   "version": "0.0.1",
   "private": true,
@@ -30,19 +14,10 @@
     "react": "17.0.2",
     "react-native": "0.66.0",
     "react-redux": "^7.2.5",
->>>>>>> 672ceef (Update version)
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@babel/core": "7.4.0",
-    "@babel/runtime": "7.4.2",
-    "babel-jest": "24.5.0",
-    "jest": "24.5.0",
-    "metro-react-native-babel-preset": "0.53.1",
-    "react-test-renderer": "^16.8.3"
-=======
     "@babel/core": "^7.15.5",
     "@babel/runtime": "^7.15.4",
     "@react-native-community/eslint-config": "^3.0.1",
@@ -51,7 +26,6 @@
     "jest": "^27.2.4",
     "metro-react-native-babel-preset": "^0.66.2",
     "react-test-renderer": "17.0.2"
->>>>>>> 672ceef (Update version)
   },
   "jest": {
     "preset": "react-native"
