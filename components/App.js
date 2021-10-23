@@ -31,7 +31,7 @@ class App extends Component<Props> {
         this.state = {
            player : 'X',
            hasWinner : false,
-           message : 'Next Player: X',
+           message : 'Player: X',
         }
 	/*
        var getData = async() => {
@@ -72,6 +72,9 @@ class App extends Component<Props> {
       <View style={Style.rootContainer}>
         <View style={Style.blankContainer}>
         </View>
+        <View style={Style.bannerContainer}>
+             <Text style={Style.bannerText}>TicTacToe</Text>
+        </View>
         <View style={Style.scoreContainer}>
              <Text style={Style.scoreText}>Score: O = {this.props.oScore}, X = {this.props.xScore}</Text>
         </View>
@@ -92,7 +95,7 @@ class App extends Component<Props> {
      {this.props.clearAll()};
      this.setState({ hasWinner : false,
                      player: 'X',
-                     message : 'Next Player: X' });
+                     message : 'Player: X' });
   }
   _doNothing() {
   }
@@ -163,7 +166,7 @@ class App extends Component<Props> {
              if (!this._checkWinner()) {
                 symbol = symbol == 'X' ? 'O' : 'X';
                 this.setState({ player: symbol,
-                             message : 'Next Player: ' + symbol
+                             message : 'Player: ' + symbol
                            });
              }
           }

@@ -32,6 +32,12 @@ var Style = StyleSheet.create({
         backgroundColor: 'cyan'
     },
 
+    bannerContainer: {
+        flex: 1,
+        backgroundColor: 'blue',
+        justifyContent: 'center'
+    },
+
     scoreContainer: {
         flex: 1,
         backgroundColor: 'red',
@@ -51,6 +57,13 @@ var Style = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         padding: 10
+    },
+
+    bannerText: {
+        color: 'white',
+        fontSize: 28,
+        fontWeight: 'bold',
+        textAlign: 'center',
     },
 
     scoreText: {
